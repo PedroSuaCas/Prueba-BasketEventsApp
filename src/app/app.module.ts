@@ -7,6 +7,11 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { MapaPage } from '../pages/mapa/mapa';
+import { MisPartidosPage } from '../pages/mis-partidos/mis-partidos';
+import { CrearPartidoPage } from '../pages/crear-partido/crear-partido';
+import { PartidosPasadosPage } from '../pages/partidos-pasados/partidos-pasados';
+import { MiPerfilPage } from '../pages/mi-perfil/mi-perfil';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +22,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MapaPage,
+    MisPartidosPage,
+    CrearPartidoPage,
+    PartidosPasadosPage,
+    MiPerfilPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +39,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MapaPage,
+    MisPartidosPage,
+    CrearPartidoPage,
+    PartidosPasadosPage,
+    MiPerfilPage
   ],
   providers: [
     StatusBar,
