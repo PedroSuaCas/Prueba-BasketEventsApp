@@ -15,6 +15,9 @@ import { MiPerfilPage } from '../pages/mi-perfil/mi-perfil';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { partidosService } from '../services/partidos';
+
+
 
 @NgModule({
   declarations: [
@@ -49,7 +52,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    partidosService
   ]
 })
 export class AppModule {}
